@@ -18,7 +18,7 @@ public class WordCounter extends JFrame implements ActionListener {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JPanel inputPanel = new JPanel(new BorderLayout());
-        JLabel label = new JLabel("Enter a file name or text:");
+        JLabel label = new JLabel("Enter a text:");
         fileNameField = new JTextField(20);
         JButton countButton = new JButton("Count Words");
         countButton.addActionListener(this);
